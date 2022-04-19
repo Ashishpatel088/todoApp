@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TodoApp</title>
+        <link rel="stylesheet" href="todo.css">
+    </head>
+    <body>
+        <div class="containers">
+            <div class="header">
+                
+            </div>
+            <div class="newtodo">
+                <div class="lable">
+                    <label>New todo</label>
+                </div>
+                <div class="txtinput">
+                    <form onsubmit="copyText(event)">
+                        <input type="text" class="addText" id="todoTitle"  name="addtodo" autocomplete="off" />
+                        <button type="submit">Add</button>
+                    </form>
+                    <!-- <input type="button"  onclick="copyText()"  value ="Add"> -->
+                </div>
+            </div>
+            <div class="resultdiv">
+            <ul class="outputdiv" id="outputdiv">
+                
+           </ul> 
+        </div>
+        </div>
+    </body>
+    <script src="todo.js"></script>
+</html>
